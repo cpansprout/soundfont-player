@@ -868,7 +868,7 @@ function SamplePlayer (ac, source, options) {
    * @see player.start
    * @since 0.3.0
    */
-  player.play = function (n, w, o) { player.start(n, w, o) }
+  player.play = player.start
 
   /**
    * Stop some or all samples
